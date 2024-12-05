@@ -6,7 +6,7 @@ const blogRout=require('./api/routs/blog');
 const bodyParser=require('body-parser');
 const fileUplaod=require('express-fileupload');
 const userRout=require('./api/routs/user')
-mongoose.connect('mongodb+srv://blog-app:deeppatel123@cluster0.1uk58xh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+mongoose.connect('')
 .then(res=>{
     console.log('connected');
 })
